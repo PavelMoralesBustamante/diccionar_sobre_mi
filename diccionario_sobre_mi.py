@@ -8,7 +8,8 @@ yo = {
         "mes":6,
         "anio":1989
     },
-    "signo":"♊"
+    "signo":"♊",
+    "juegos_favoritos":["Valorant","Fornite","Baldur Gates 3","Diablo 2"]
 }
 
 #Mostrar Ficha
@@ -18,5 +19,6 @@ print(f""" {Style.BRIGHT}{Fore.YELLOW}
 ==========================================={Style.RESET_ALL}
 
 Fecha Nacimiento : {yo['fecha_nacimiento']['dia']}-{yo['fecha_nacimiento']['mes']}-{yo['fecha_nacimiento']['anio']}      Nacionalidad:
-      
+🎮{yo['juegos_favoritos'][0]}
+🎮{yo['juegos_favoritos'][1]}
       """)
